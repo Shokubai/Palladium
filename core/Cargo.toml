@@ -1,0 +1,15 @@
+[package]
+name = "palladium-core"
+description = "Core AI model testing engine"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+palladium-shared = { path = "../shared" }
+serde.workspace = true
+anyhow.workspace = true
+tokio.workspace = true
+log.workspace = true

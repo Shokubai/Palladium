@@ -1,0 +1,21 @@
+[package]
+name = "palladium"
+description = "Local AI Model Testing Framework"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "shaipd"
+path = "src/main.rs"
+
+[dependencies]
+palladium-shared = { path = "../shared" }
+palladium-core = { path = "../core" }
+clap.workspace = true
+anyhow.workspace = true
+tokio.workspace = true
+log.workspace = true
+env_logger.workspace = true
